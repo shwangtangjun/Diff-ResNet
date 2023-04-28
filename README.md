@@ -33,7 +33,7 @@ python train.py --dataset cora --step_size 0.25 --layer_num 20 --dropout 0.25
 Download [miniImageNet](https://mega.nz/file/2ldRWQ7Y#U_zhHOf0mxoZ_WQNdvv4mt1Ke3Ay9YPNmHl5TnOVuAU), [tieredImageNet](https://mega.nz/file/r1kmyAgR#uMx7x38RScStpTZARKL2DwTfkD1eVIgbilL4s20vLhI) and [CUB-100](https://mega.nz/file/axUDACZb#ve0NQdmdj_RhhQttONaZ8Tgaxdh4A__PASs_OCI6cSk). Unpack these dataset in to corresponding dataset name directory in [data/](./fewshot/data/).
 
 ### 2. Backbone Training
-You can download pretrained models on base classes [here](https://mega.nz/file/jtMgXbxC#cmYrCLDQnnvBqbn_3oU7IEDML9ppJ-9wltzQBMSMBwI), and unpack pretrained models in fewshot/saved_models/.
+You can download pretrained models on base classes [here](https://mega.nz/file/f5lDUJSY#E6zdNonvpPP5nq7cx_heYgLSU6vxCrsbvy4SNr88MT4), and unpack pretrained models in fewshot/saved_models/.
 
 Or you can train from scratch by running [train_backbone.py](./fewshot/backbone/train_backbone.py).
 
