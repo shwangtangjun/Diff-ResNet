@@ -8,12 +8,12 @@ More details in paper:
 ## Introduction
 Inspired by the diffusive ODEs, we propose a novel diffusion residual network (Diff-ResNet) to strengthen the interactions among data points. Diffusion mechanism can decrease the distance-diameter ratio and improves the separability of data points. Figure below shows the evolution of points with diffusion.
 <div align=center>
-<img src="./doc/diffusion.gif" width = "640" height = "480">
+<img src="./doc/diffusion.gif" width = "320" height = "240">
 </div>
 
 The figure describes  the architecture of our network.
 <div align=center>
-<img src="./doc/network.png" width = "960" height = "480">
+<img src="./doc/network.png" width = "640" height = "320">
 </div>
 
 ## Synthetic Data
