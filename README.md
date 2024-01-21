@@ -3,7 +3,7 @@
 This repository contains the code for Diff-ResNet implemented with PyTorch. 
 
 More details in paper:
-[**Diffusion Mechanism in Residual Neural Network: Theory and Applications**](https://arxiv.org/abs/2105.03155)
+[**Diffusion Mechanism in Residual Neural Network: Theory and Applications**](https://ieeexplore.ieee.org/document/10114599)
 
 ## Introduction
 Inspired by the diffusive ODEs, we propose a novel diffusion residual network (Diff-ResNet) to strengthen the interactions among data points. Diffusion mechanism can decrease the distance-diameter ratio and improves the separability of data points. Figure below shows the evolution of points with diffusion.
@@ -50,11 +50,14 @@ python train.py --dataset mini --backbone resnet18 --shot 1 --method diffusion -
 ## Citation
 If you find Diff-ResNets useful in your research, please consider citing:
 ```
-@article{wang2022diffusion,
-  title={Diffusion Mechanism in Neural Network: Theory and Applications},
-  author={Tangjun Wang, Zehao Dou, Chenglong Bao and Zuoqiang Shi},
-  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
-  year={2022},
-  publisher={IEEE}
+@article{wang2024diffusion,
+  author={Wang, Tangjun and Dou, Zehao and Bao, Chenglong and Shi, Zuoqiang},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  title={Diffusion Mechanism in Residual Neural Network: Theory and Applications}, 
+  year={2024},
+  volume={46},
+  number={2},
+  pages={667-680},
+  doi={10.1109/TPAMI.2023.3272341}
 }
 ```
